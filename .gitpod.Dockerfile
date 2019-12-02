@@ -6,7 +6,7 @@ USER gitpod
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
 RUN sudo apt-get update \
-   && sudo apt-get install p7zip-full
+   && sudo apt-get install -yq p7zip-full
 #    && apt-get install -y bastet \
 #    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 #
